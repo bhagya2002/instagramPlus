@@ -1,3 +1,4 @@
+# get a list of people who dont follow you
 with open("FILE1_NAME") as f1, open("FILE2_NAME") as f2:
     readed1 = f1.readlines()
     readed2 = f2.readlines()
