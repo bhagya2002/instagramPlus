@@ -1,4 +1,4 @@
-with open("bhagya_followees.txt") as f1, open("bhagya_followers.txt") as f2:
+with open("FILE1_NAME") as f1, open("FILE2_NAME") as f2:
     readed1 = f1.readlines()
     readed2 = f2.readlines()
 
@@ -7,18 +7,3 @@ with open("bhagya_followees.txt") as f1, open("bhagya_followers.txt") as f2:
         if eachperson not in readed2:
             file.write(eachperson)
         file.close()
-
-    
-    # for trial in readed1:
-    #     if trial in readed2:
-    #         file = open("notfollowers.txt","w")
-    #         file.write(trial + "\n")
-    #         file.close()
-
-    #    for followee in f1.readlines():
-           
-    #        if followee != readed:
-                # file = open("notfollowers.txt","w")
-                # username = followee
-                # file.write(username + "\n")
-                # file.close()
